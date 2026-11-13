@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Couponio info tables: 10 documents</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/cio-info.css">
+</head>
+<body>
+<main class="demo">
+
+<!--
+HOW TO REUSE
+1. Copy one <div class="cio-wrap"> ... </div> block into the page. The CSS in css/cio-info.css is shared by all ten.
+2. Change the text only: tag, date, title, intro, four facts, caption, column headings, rows, note, button.
+3. Each <td> carries data-label="column heading". Keep it equal to its <th>; phones show it beside the value.
+4. Give each block its own id on the title and the same value in aria-labelledby.
+Optional parts: cio-fact--accent (one filled fact), cio-row--highlight (one tinted row), cio-pill (label in that row),
+cio-left (left-align a text column), cio-todo (amber marker for a figure that still needs confirming).
+Tables can have two to five columns. Facts sit four across, two across under 640px.
+-->
+
+<p class="demo-label" id="doc-1">Document 1: Gift vouchers for women</p>
+<div class="cio-wrap">
+<section class="cio-info" aria-labelledby="cio-title-gift-vouchers-women">
+<div class="cio-head">
+<div class="cio-topline">
+<p class="cio-tag">Gift vouchers</p>
+<p class="cio-updated">Checked 13 November 2026</p>
+</div>
+<h2 class="cio-title" id="cio-title-gift-vouchers-women">Gift vouchers for women at a glance</h2>
+<p class="cio-intro">Five UK experience and spa voucher stores on Couponio list 181 voucher codes and 322 offers between them. Virgin Experience Days has the largest listed saving.</p>
+</div>
+<ul class="cio-facts">
+<li class="cio-fact cio-fact--accent">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5 5 19"></path><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg></span>
+<p class="cio-fact-value">Up to 80%</p>
+<p class="cio-fact-label">Best discount in this table</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></span>
+<p class="cio-fact-value">181</p>
+<p class="cio-fact-label">Voucher codes</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16l-1-5H5L4 9Z"></path><path d="M5 9v11h14V9"></path><path d="M9 20v-6h6v6"></path></svg></span>
+<p class="cio-fact-value">322</p>
+<p class="cio-fact-label">Total offers</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3Z"></path></svg></span>
+<p class="cio-fact-value">4.8</p>
+<p class="cio-fact-label">Top store rating</p>
+</li>
+</ul>
+<div class="cio-tablewrap">
+<table class="cio-table">
+<caption>Experience and spa voucher stores: codes, offers, best discount and rating</caption>
+<thead>
+<tr><th scope="col">Store</th><th scope="col">Voucher codes</th><th scope="col">Total offers</th><th scope="col">Best discount</th><th scope="col">Rating</th></tr>
+</thead>
+<tbody>
+<tr><td><span class="cio-name">Buyagift</span></td><td data-label="Voucher codes">48</td><td data-label="Total offers">81</td><td data-label="Best discount">70% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.8</span></td></tr>
+<tr class="cio-row--highlight"><td><span class="cio-name">Virgin Experience Days</span><span class="cio-pill">Biggest saving</span></td><td data-label="Voucher codes">37</td><td data-label="Total offers">73</td><td data-label="Best discount"><strong class="cio-name">80% Off</strong></td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.5</span></td></tr>
+<tr><td><span class="cio-name">Red Letter Days</span></td><td data-label="Voucher codes">28</td><td data-label="Total offers">62</td><td data-label="Best discount">70% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.6</span></td></tr>
+<tr><td><span class="cio-name">Treatwell</span></td><td data-label="Voucher codes">47</td><td data-label="Total offers">65</td><td data-label="Best discount">50% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.7</span></td></tr>
+<tr><td><span class="cio-name">Spaseekers</span></td><td data-label="Voucher codes">21</td><td data-label="Total offers">41</td><td data-label="Best discount">50% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.7</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class="cio-foot">
+<p class="cio-note">Figures from each store's page on couponio.uk, checked 13 November 2026. Offers change daily, so check the store page before you buy.</p>
+<a class="cio-btn" href="https://couponio.uk/store/virginexperiencedays.co.uk">View Virgin Experience Days codes</a>
+</div>
+</section>
+</div>
+
+<p class="demo-label" id="doc-2">Document 2: Gifts for her</p>
+<div class="cio-wrap">
+<section class="cio-info" aria-labelledby="cio-title-gifts-for-her">
+<div class="cio-head">
+<div class="cio-topline">
+<p class="cio-tag">Gifts for her</p>
+<p class="cio-updated">Checked 13 November 2026</p>
+</div>
+<h2 class="cio-title" id="cio-title-gifts-for-her">Gifts for her at a glance</h2>
+<p class="cio-intro">Five gift stores on Couponio, one for each kind of present, list 300 voucher codes and 479 offers. Not On The High Street has the largest listed saving.</p>
+</div>
+<ul class="cio-facts">
+<li class="cio-fact cio-fact--accent">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5 5 19"></path><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg></span>
+<p class="cio-fact-value">Up to 75%</p>
+<p class="cio-fact-label">Best discount in this table</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></span>
+<p class="cio-fact-value">300</p>
+<p class="cio-fact-label">Voucher codes</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16l-1-5H5L4 9Z"></path><path d="M5 9v11h14V9"></path><path d="M9 20v-6h6v6"></path></svg></span>
+<p class="cio-fact-value">479</p>
+<p class="cio-fact-label">Total offers</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3Z"></path></svg></span>
+<p class="cio-fact-value">4.9</p>
+<p class="cio-fact-label">Top store rating</p>
+</li>
+</ul>
+<div class="cio-tablewrap">
+<table class="cio-table">
+<caption>Gift stores by gift type: codes, best discount and rating</caption>
+<thead>
+<tr><th scope="col">Store</th><th scope="col">Gift type</th><th scope="col">Voucher codes</th><th scope="col">Best discount</th><th scope="col">Rating</th></tr>
+</thead>
+<tbody>
+<tr class="cio-row--highlight"><td><span class="cio-name">Not On The High Street</span><span class="cio-pill">Biggest saving</span></td><td data-label="Gift type">Personalised gifts</td><td data-label="Voucher codes">26</td><td data-label="Best discount"><strong class="cio-name">75% Off</strong></td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.8</span></td></tr>
+<tr><td><span class="cio-name">The Fragrance Shop</span></td><td data-label="Gift type">Perfume</td><td data-label="Voucher codes">96</td><td data-label="Best discount">70% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.8</span></td></tr>
+<tr><td><span class="cio-name">Hotel Chocolat</span></td><td data-label="Gift type">Chocolate</td><td data-label="Voucher codes">44</td><td data-label="Best discount">50% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.9</span></td></tr>
+<tr><td><span class="cio-name">Interflora</span></td><td data-label="Gift type">Flowers</td><td data-label="Voucher codes">34</td><td data-label="Best discount">35% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.9</span></td></tr>
+<tr><td><span class="cio-name">Abbott Lyon</span></td><td data-label="Gift type">Jewellery</td><td data-label="Voucher codes">100</td><td data-label="Best discount">50% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.7</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class="cio-foot">
+<p class="cio-note">Figures from each store&#x27;s page on couponio.uk, checked 13 November 2026. Offers change daily, so check the store page before you buy.</p>
+<a class="cio-btn" href="https://couponio.uk/store/notonthehighstreet.com">View Not On The High Street codes</a>
+</div>
+</section>
+</div>
+
+<p class="demo-label" id="doc-3">Document 3: Beauty discounts</p>
+<div class="cio-wrap">
+<section class="cio-info" aria-labelledby="cio-title-beauty">
+<div class="cio-head">
+<div class="cio-topline">
+<p class="cio-tag">Beauty &amp; Cosmetics</p>
+<p class="cio-updated">Checked 13 November 2026</p>
+</div>
+<h2 class="cio-title" id="cio-title-beauty">Beauty discounts at a glance</h2>
+<p class="cio-intro">Couponio lists 6,121 live beauty offers from 125 UK stores. These five featured stores carry the most codes or the highest ratings right now.</p>
+</div>
+<ul class="cio-facts">
+<li class="cio-fact cio-fact--accent">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5 5 19"></path><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg></span>
+<p class="cio-fact-value">Up to 75%</p>
+<p class="cio-fact-label">Best discount in this table</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></span>
+<p class="cio-fact-value">6,121</p>
+<p class="cio-fact-label">Live offers</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16l-1-5H5L4 9Z"></path><path d="M5 9v11h14V9"></path><path d="M9 20v-6h6v6"></path></svg></span>
+<p class="cio-fact-value">125</p>
+<p class="cio-fact-label">Active stores</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3Z"></path></svg></span>
+<p class="cio-fact-value">5.0</p>
+<p class="cio-fact-label">Top store rating</p>
+</li>
+</ul>
+<div class="cio-tablewrap">
+<table class="cio-table">
+<caption>Featured beauty stores: offers, best discount and rating</caption>
+<thead>
+<tr><th scope="col">Store</th><th scope="col">Offers available</th><th scope="col">Best discount</th><th scope="col">Rating</th><th scope="col">Reviews</th></tr>
+</thead>
+<tbody>
+<tr><td><span class="cio-name">Lookfantastic</span></td><td data-label="Offers available">188</td><td data-label="Best discount">Up to 50% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.5</span></td><td data-label="Reviews">16</td></tr>
+<tr><td><span class="cio-name">Charlotte Tilbury</span></td><td data-label="Offers available">158</td><td data-label="Best discount">Up to 50% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.5</span></td><td data-label="Reviews">76</td></tr>
+<tr><td><span class="cio-name">Stylevana</span></td><td data-label="Offers available">129</td><td data-label="Best discount">Up to 40% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 5.0</span></td><td data-label="Reviews">71</td></tr>
+<tr class="cio-row--highlight"><td><span class="cio-name">Cult Beauty</span><span class="cio-pill">Biggest saving</span></td><td data-label="Offers available">122</td><td data-label="Best discount"><strong class="cio-name">Up to 75% Off</strong></td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.5</span></td><td data-label="Reviews">34</td></tr>
+<tr><td><span class="cio-name">allbeauty</span></td><td data-label="Offers available">81</td><td data-label="Best discount">Up to 60% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 5.0</span></td><td data-label="Reviews">72</td></tr>
+</tbody>
+</table>
+</div>
+<div class="cio-foot">
+<p class="cio-note">Figures from couponio.uk/collections/beauty-cosmetics on 13 November 2026. Offers change daily, so check the store page before you buy.</p>
+<a class="cio-btn" href="https://couponio.uk/collections/beauty-cosmetics">View all beauty codes</a>
+</div>
+</section>
+</div>
+
+<p class="demo-label" id="doc-4">Document 4: Military discounts</p>
+<div class="cio-wrap">
+<section class="cio-info" aria-labelledby="cio-title-military-discounts">
+<div class="cio-head">
+<div class="cio-topline">
+<p class="cio-tag">Military discounts</p>
+<p class="cio-updated">Checked 13 November 2026</p>
+</div>
+<h2 class="cio-title" id="cio-title-military-discounts">Military discounts at a glance</h2>
+<p class="cio-intro">Four cards cover most UK armed forces discounts. The Defence Privilege Card costs £4.99 for five years and works in over 12,000 restaurants and shops.</p>
+</div>
+<ul class="cio-facts">
+<li class="cio-fact cio-fact--accent">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"></rect><path d="M2.5 10h19"></path><path d="M6.5 15h4"></path></svg></span>
+<p class="cio-fact-value">£4.99</p>
+<p class="cio-fact-label">Defence Privilege Card</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4"></path><path d="M16 3v4"></path></svg></span>
+<p class="cio-fact-value">5 years</p>
+<p class="cio-fact-label">Card validity</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16l-1-5H5L4 9Z"></path><path d="M5 9v11h14V9"></path><path d="M9 20v-6h6v6"></path></svg></span>
+<p class="cio-fact-value">12,000+</p>
+<p class="cio-fact-label">Restaurants and shops</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"></circle><path d="M2.5 20a6.5 6.5 0 0 1 13 0"></path><path d="M16 4.7a3.5 3.5 0 0 1 0 6.6"></path><path d="M18 14.5a6 6 0 0 1 3.5 5.5"></path></svg></span>
+<p class="cio-fact-value">9</p>
+<p class="cio-fact-label">Eligible groups</p>
+</li>
+</ul>
+<div class="cio-tablewrap">
+<table class="cio-table">
+<caption>UK armed forces discount schemes: cost, validity and what each gives you</caption>
+<thead>
+<tr><th scope="col">Scheme</th><th scope="col">Cost</th><th scope="col">Valid for</th><th scope="col" class="cio-left">What it gives you</th></tr>
+</thead>
+<tbody>
+<tr class="cio-row--highlight"><td><span class="cio-name">Defence Privilege Card</span><span class="cio-pill">Official scheme</span></td><td data-label="Cost"><strong class="cio-name">£4.99</strong></td><td data-label="Valid for">5 years</td><td data-label="What it gives you" class="cio-left">In-store discounts at over 12,000 restaurants and shops</td></tr>
+<tr><td><span class="cio-name">Blue Light Card</span></td><td data-label="Cost">£4.99</td><td data-label="Valid for">2 years</td><td data-label="What it gives you" class="cio-left">Over 18,000 partner brands; armed forces are eligible</td></tr>
+<tr><td><span class="cio-name">Veterans Railcard</span></td><td data-label="Cost">£35</td><td data-label="Valid for">1 year</td><td data-label="What it gives you" class="cio-left">Rail discounts in England, Wales and Scotland (£80 for 3 years)</td></tr>
+<tr><td><span class="cio-name">HM Armed Forces Veteran Card</span></td><td data-label="Cost">Free</td><td data-label="Valid for">Not stated</td><td data-label="What it gives you" class="cio-left">Proof of service for veteran offers</td></tr>
+</tbody>
+</table>
+</div>
+<div class="cio-foot">
+<p class="cio-note">Sources: GOV.UK, Defence Discount Service and Blue Light Card, checked 13 November 2026. Prices and rules can change, so confirm with the scheme before you apply.</p>
+<a class="cio-btn" href="https://couponio.uk/collections/sports-outdoors-military-kit">Browse military kit codes</a>
+</div>
+</section>
+</div>
+
+<p class="demo-label" id="doc-5">Document 5: Blue light discounts</p>
+<div class="cio-wrap">
+<section class="cio-info" aria-labelledby="cio-title-blue-light-discounts">
+<div class="cio-head">
+<div class="cio-topline">
+<p class="cio-tag">Blue light discounts</p>
+<p class="cio-updated">Checked 13 November 2026</p>
+</div>
+<h2 class="cio-title" id="cio-title-blue-light-discounts">Blue light discounts at a glance</h2>
+<p class="cio-intro">The Blue Light Card costs £4.99 for two years and covers NHS, emergency services, social care, teaching and armed forces staff. Here is how it compares with the Defence Privilege Card.</p>
+</div>
+<ul class="cio-facts">
+<li class="cio-fact cio-fact--accent">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"></rect><path d="M2.5 10h19"></path><path d="M6.5 15h4"></path></svg></span>
+<p class="cio-fact-value">£4.99</p>
+<p class="cio-fact-label">Blue Light Card cost</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4"></path><path d="M16 3v4"></path></svg></span>
+<p class="cio-fact-value">2 years</p>
+<p class="cio-fact-label">Access period</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16l-1-5H5L4 9Z"></path><path d="M5 9v11h14V9"></path><path d="M9 20v-6h6v6"></path></svg></span>
+<p class="cio-fact-value">18,000+</p>
+<p class="cio-fact-label">Partner brands</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></span>
+<p class="cio-fact-value">15,000+</p>
+<p class="cio-fact-label">Discounts listed</p>
+</li>
+</ul>
+<div class="cio-tablewrap">
+<table class="cio-table">
+<caption>Blue Light Card compared with the Defence Privilege Card</caption>
+<thead>
+<tr><th scope="col">Feature</th><th scope="col">Blue Light Card</th><th scope="col">Defence Privilege Card</th></tr>
+</thead>
+<tbody>
+<tr><td><span class="cio-name">Cost</span></td><td data-label="Blue Light Card">£4.99</td><td data-label="Defence Privilege Card">£4.99</td></tr>
+<tr class="cio-row--highlight"><td><span class="cio-name">Valid for</span><span class="cio-pill">Key difference</span></td><td data-label="Blue Light Card"><strong class="cio-name">2 years</strong></td><td data-label="Defence Privilege Card"><strong class="cio-name">5 years</strong></td></tr>
+<tr><td><span class="cio-name">Where it works</span></td><td data-label="Blue Light Card">Online, in store and in the app</td><td data-label="Defence Privilege Card">Online deals, card in store</td></tr>
+<tr><td><span class="cio-name">Partners</span></td><td data-label="Blue Light Card">Over 18,000 brands</td><td data-label="Defence Privilege Card">Over 12,000 restaurants and shops</td></tr>
+<tr><td><span class="cio-name">Who can apply</span></td><td data-label="Blue Light Card">NHS, emergency services, social care, teaching, armed forces</td><td data-label="Defence Privilege Card">Serving, reserves, veterans, spouses and partners, MOD civil servants</td></tr>
+</tbody>
+</table>
+</div>
+<div class="cio-foot">
+<p class="cio-note">Sources: GOV.UK, Defence Discount Service and Blue Light Card, checked 13 November 2026. Prices and rules can change, so confirm with the scheme before you apply.</p>
+<a class="cio-btn" href="https://couponio.uk/">Browse verified codes</a>
+</div>
+</section>
+</div>
+
+<p class="demo-label" id="doc-6">Document 6: Veterans discount card</p>
+<div class="cio-wrap">
+<section class="cio-info" aria-labelledby="cio-title-veterans-discount-card">
+<div class="cio-head">
+<div class="cio-topline">
+<p class="cio-tag">Veterans discount card</p>
+<p class="cio-updated">Checked 13 November 2026</p>
+</div>
+<h2 class="cio-title" id="cio-title-veterans-discount-card">Veterans discount cards at a glance</h2>
+<p class="cio-intro">Four cards are open to UK veterans. The HM Armed Forces Veteran Card is free and proves you served; the Defence Privilege Card and Veterans Railcard give the discounts.</p>
+</div>
+<ul class="cio-facts">
+<li class="cio-fact cio-fact--accent">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"></rect><path d="M2.5 10h19"></path><path d="M6.5 15h4"></path></svg></span>
+<p class="cio-fact-value">Free</p>
+<p class="cio-fact-label">HM Armed Forces Veteran Card</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4"></path><path d="M16 3v4"></path></svg></span>
+<p class="cio-fact-value">10 weeks</p>
+<p class="cio-fact-label">Usual wait for the card</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></span>
+<p class="cio-fact-value">£4.99</p>
+<p class="cio-fact-label">Defence Privilege Card, 5 years</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5 5 19"></path><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg></span>
+<p class="cio-fact-value">£80</p>
+<p class="cio-fact-label">Veterans Railcard, 3 years</p>
+</li>
+</ul>
+<div class="cio-tablewrap">
+<table class="cio-table">
+<caption>Cards for UK veterans: cost, validity and what each does</caption>
+<thead>
+<tr><th scope="col">Card</th><th scope="col">Cost</th><th scope="col">Valid for</th><th scope="col" class="cio-left">What it does</th></tr>
+</thead>
+<tbody>
+<tr class="cio-row--highlight"><td><span class="cio-name">HM Armed Forces Veteran Card</span><span class="cio-pill">Free</span></td><td data-label="Cost"><strong class="cio-name">Free</strong></td><td data-label="Valid for">Not stated</td><td data-label="What it does" class="cio-left">Proves you served; apply only if you left before December 2018</td></tr>
+<tr><td><span class="cio-name">Defence Privilege Card</span></td><td data-label="Cost">£4.99</td><td data-label="Valid for">5 years</td><td data-label="What it does" class="cio-left">Discounts at over 12,000 restaurants and shops</td></tr>
+<tr><td><span class="cio-name">Veterans Railcard</span></td><td data-label="Cost">£35 or £80</td><td data-label="Valid for">1 or 3 years</td><td data-label="What it does" class="cio-left">Rail discounts in England, Wales and Scotland</td></tr>
+<tr><td><span class="cio-name">Veterans Oyster photocard</span></td><td data-label="Cost"><span class="cio-todo">[COST: CONFIRM]</span></td><td data-label="Valid for"><span class="cio-todo">[VALIDITY: CONFIRM]</span></td><td data-label="What it does" class="cio-left">Free and discounted travel in London</td></tr>
+</tbody>
+</table>
+</div>
+<div class="cio-foot">
+<p class="cio-note">Sources: GOV.UK, Defence Discount Service and Blue Light Card, checked 13 November 2026. Prices and rules can change, so confirm with the scheme before you apply.</p>
+<a class="cio-btn" href="https://couponio.uk/">Browse verified codes</a>
+</div>
+</section>
+</div>
+
+<p class="demo-label" id="doc-7">Document 7: Forces discount</p>
+<div class="cio-wrap">
+<section class="cio-info" aria-labelledby="cio-title-forces-discount">
+<div class="cio-head">
+<div class="cio-topline">
+<p class="cio-tag">Forces discount</p>
+<p class="cio-updated">Checked 13 November 2026</p>
+</div>
+<h2 class="cio-title" id="cio-title-forces-discount">Forces discount at a glance</h2>
+<p class="cio-intro">Defence Discount Service describes itself as the official armed forces discount service. Nine groups can join, and its Defence Privilege Card costs £4.99 for five years.</p>
+</div>
+<ul class="cio-facts">
+<li class="cio-fact cio-fact--accent">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"></circle><path d="M2.5 20a6.5 6.5 0 0 1 13 0"></path><path d="M16 4.7a3.5 3.5 0 0 1 0 6.6"></path><path d="M18 14.5a6 6 0 0 1 3.5 5.5"></path></svg></span>
+<p class="cio-fact-value">9</p>
+<p class="cio-fact-label">Groups that can join</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"></rect><path d="M2.5 10h19"></path><path d="M6.5 15h4"></path></svg></span>
+<p class="cio-fact-value">£4.99</p>
+<p class="cio-fact-label">Defence Privilege Card</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18"></path><path d="M8 3v4"></path><path d="M16 3v4"></path></svg></span>
+<p class="cio-fact-value">5 years</p>
+<p class="cio-fact-label">Card validity</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16l-1-5H5L4 9Z"></path><path d="M5 9v11h14V9"></path><path d="M9 20v-6h6v6"></path></svg></span>
+<p class="cio-fact-value">12,000+</p>
+<p class="cio-fact-label">Restaurants and shops</p>
+</li>
+</ul>
+<div class="cio-tablewrap">
+<table class="cio-table">
+<caption>Who can join Defence Discount Service</caption>
+<thead>
+<tr><th scope="col">Group</th><th scope="col">Can join</th></tr>
+</thead>
+<tbody>
+<tr><td><span class="cio-name">Serving HM Armed Forces</span></td><td data-label="Can join">Yes</td></tr>
+<tr><td><span class="cio-name">Reserve Armed Forces</span></td><td data-label="Can join">Yes</td></tr>
+<tr><td><span class="cio-name">HM Armed Forces veterans</span></td><td data-label="Can join">Yes</td></tr>
+<tr><td><span class="cio-name">Spouses and partners</span></td><td data-label="Can join">Yes</td></tr>
+<tr><td><span class="cio-name">Widows and widowers</span></td><td data-label="Can join">Yes</td></tr>
+<tr><td><span class="cio-name">Bereaved family members</span></td><td data-label="Can join">Yes</td></tr>
+<tr><td><span class="cio-name">MOD civil servants</span></td><td data-label="Can join">Yes</td></tr>
+<tr><td><span class="cio-name">NATO personnel</span></td><td data-label="Can join">Yes</td></tr>
+<tr class="cio-row--highlight"><td><span class="cio-name">Cadet Forces</span><span class="cio-pill">Age limit</span></td><td data-label="Can join"><strong class="cio-name">Yes, aged 16 and over</strong></td></tr>
+</tbody>
+</table>
+</div>
+<div class="cio-foot">
+<p class="cio-note">Sources: GOV.UK, Defence Discount Service and Blue Light Card, checked 13 November 2026. Prices and rules can change, so confirm with the scheme before you apply.</p>
+<a class="cio-btn" href="https://couponio.uk/collections/sports-outdoors-military-kit">Browse military kit codes</a>
+</div>
+</section>
+</div>
+
+<p class="demo-label" id="doc-8">Document 8: Lighting discounts</p>
+<div class="cio-wrap">
+<section class="cio-info" aria-labelledby="cio-title-lighting-discounts">
+<div class="cio-head">
+<div class="cio-topline">
+<p class="cio-tag">Lighting</p>
+<p class="cio-updated">Checked 13 November 2026</p>
+</div>
+<h2 class="cio-title" id="cio-title-lighting-discounts">Lighting discounts at a glance</h2>
+<p class="cio-intro">Four UK lighting stores on Couponio list 103 voucher codes and 238 offers. Pooky has the largest listed saving at 80% off.</p>
+</div>
+<ul class="cio-facts">
+<li class="cio-fact cio-fact--accent">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5 5 19"></path><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg></span>
+<p class="cio-fact-value">Up to 80%</p>
+<p class="cio-fact-label">Best discount in this table</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></span>
+<p class="cio-fact-value">103</p>
+<p class="cio-fact-label">Voucher codes</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16l-1-5H5L4 9Z"></path><path d="M5 9v11h14V9"></path><path d="M9 20v-6h6v6"></path></svg></span>
+<p class="cio-fact-value">238</p>
+<p class="cio-fact-label">Total offers</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3Z"></path></svg></span>
+<p class="cio-fact-value">4.8</p>
+<p class="cio-fact-label">Top store rating</p>
+</li>
+</ul>
+<div class="cio-tablewrap">
+<table class="cio-table">
+<caption>Lighting stores: codes, offers, best discount and rating</caption>
+<thead>
+<tr><th scope="col">Store</th><th scope="col">Voucher codes</th><th scope="col">Total offers</th><th scope="col">Best discount</th><th scope="col">Rating</th></tr>
+</thead>
+<tbody>
+<tr><td><span class="cio-name">Lights4Fun</span></td><td data-label="Voucher codes">38</td><td data-label="Total offers">75</td><td data-label="Best discount">75% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.8</span></td></tr>
+<tr class="cio-row--highlight"><td><span class="cio-name">Pooky</span><span class="cio-pill">Biggest saving</span></td><td data-label="Voucher codes">19</td><td data-label="Total offers">65</td><td data-label="Best discount"><strong class="cio-name">80% Off</strong></td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.6</span></td></tr>
+<tr><td><span class="cio-name">Lighting Direct</span></td><td data-label="Voucher codes">26</td><td data-label="Total offers">68</td><td data-label="Best discount">75% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.8</span></td></tr>
+<tr><td><span class="cio-name">Value Lights</span></td><td data-label="Voucher codes">20</td><td data-label="Total offers">30</td><td data-label="Best discount">25% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.7</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class="cio-foot">
+<p class="cio-note">Figures from each store&#x27;s page on couponio.uk, checked 13 November 2026. Offers change daily, so check the store page before you buy.</p>
+<a class="cio-btn" href="https://couponio.uk/store/pooky.com">View Pooky codes</a>
+</div>
+</section>
+</div>
+
+<p class="demo-label" id="doc-9">Document 9: Lighting discount codes / deals</p>
+<div class="cio-wrap">
+<section class="cio-info" aria-labelledby="cio-title-lighting-codes-deals">
+<div class="cio-head">
+<div class="cio-topline">
+<p class="cio-tag">Lighting codes and deals</p>
+<p class="cio-updated">Checked 13 November 2026</p>
+</div>
+<h2 class="cio-title" id="cio-title-lighting-codes-deals">Lighting discount codes and deals at a glance</h2>
+<p class="cio-intro">Five big home retailers that sell lighting list 288 voucher codes and 239 no-code deals on Couponio. Wayfair has the most deals.</p>
+</div>
+<ul class="cio-facts">
+<li class="cio-fact cio-fact--accent">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></span>
+<p class="cio-fact-value">288</p>
+<p class="cio-fact-label">Voucher codes</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16l-1-5H5L4 9Z"></path><path d="M5 9v11h14V9"></path><path d="M9 20v-6h6v6"></path></svg></span>
+<p class="cio-fact-value">239</p>
+<p class="cio-fact-label">No-code deals</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5 5 19"></path><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg></span>
+<p class="cio-fact-value">Up to 80%</p>
+<p class="cio-fact-label">Best discount in this table</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3Z"></path></svg></span>
+<p class="cio-fact-value">4.8</p>
+<p class="cio-fact-label">Top store rating</p>
+</li>
+</ul>
+<div class="cio-tablewrap">
+<table class="cio-table">
+<caption>Home retailers that sell lighting: codes, deals, best discount and rating</caption>
+<thead>
+<tr><th scope="col">Store</th><th scope="col">Voucher codes</th><th scope="col">Deals</th><th scope="col">Best discount</th><th scope="col">Rating</th></tr>
+</thead>
+<tbody>
+<tr><td><span class="cio-name">John Lewis</span></td><td data-label="Voucher codes">100</td><td data-label="Deals">43</td><td data-label="Best discount">70% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.8</span></td></tr>
+<tr><td><span class="cio-name">B&amp;Q</span></td><td data-label="Voucher codes">43</td><td data-label="Deals">57</td><td data-label="Best discount">70% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.8</span></td></tr>
+<tr class="cio-row--highlight"><td><span class="cio-name">Wayfair</span><span class="cio-pill">Most deals</span></td><td data-label="Voucher codes">32</td><td data-label="Deals"><strong class="cio-name">64</strong></td><td data-label="Best discount">70% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.8</span></td></tr>
+<tr><td><span class="cio-name">Argos</span></td><td data-label="Voucher codes">79</td><td data-label="Deals">40</td><td data-label="Best discount">60% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.5</span></td></tr>
+<tr><td><span class="cio-name">Habitat</span></td><td data-label="Voucher codes">34</td><td data-label="Deals">35</td><td data-label="Best discount">80% Off</td><td data-label="Rating"><span><span class="cio-star" aria-hidden="true">★</span> 4.6</span></td></tr>
+</tbody>
+</table>
+</div>
+<div class="cio-foot">
+<p class="cio-note">Figures from each store&#x27;s page on couponio.uk, checked 13 November 2026. They cover each store&#x27;s whole range, not lighting only. Offers change daily.</p>
+<a class="cio-btn" href="https://couponio.uk/store/wayfair.co.uk">View Wayfair codes</a>
+</div>
+</section>
+</div>
+
+<p class="demo-label" id="doc-10">Document 10: Best AI tools</p>
+<div class="cio-wrap">
+<section class="cio-info" aria-labelledby="cio-title-best-ai-tools">
+<div class="cio-head">
+<div class="cio-topline">
+<p class="cio-tag">AI tools</p>
+<p class="cio-updated">Checked 13 November 2026</p>
+</div>
+<h2 class="cio-title" id="cio-title-best-ai-tools">AI tool prices at a glance</h2>
+<p class="cio-intro">All five AI tools in Couponio&#x27;s pricing guides have a free plan. Paid plans start at £4.30 a month, and the top listed tier reaches £160 a month.</p>
+</div>
+<ul class="cio-facts">
+<li class="cio-fact cio-fact--accent">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></span>
+<p class="cio-fact-value">£0</p>
+<p class="cio-fact-label">Free plan on all five</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5 5 19"></path><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg></span>
+<p class="cio-fact-value">£4.30</p>
+<p class="cio-fact-label">Lowest paid plan, per month</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="19" height="14" rx="2"></rect><path d="M2.5 10h19"></path><path d="M6.5 15h4"></path></svg></span>
+<p class="cio-fact-value">£160</p>
+<p class="cio-fact-label">Highest listed price, per month</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"></circle><path d="M2.5 20a6.5 6.5 0 0 1 13 0"></path><path d="M16 4.7a3.5 3.5 0 0 1 0 6.6"></path><path d="M18 14.5a6 6 0 0 1 3.5 5.5"></path></svg></span>
+<p class="cio-fact-value">5</p>
+<p class="cio-fact-label">Tools compared</p>
+</li>
+</ul>
+<div class="cio-tablewrap">
+<table class="cio-table">
+<caption>AI tool pricing: free plan, entry paid plan and top listed price</caption>
+<thead>
+<tr><th scope="col">Tool</th><th scope="col">Free plan</th><th scope="col">Paid from</th><th scope="col">Top listed price</th></tr>
+</thead>
+<tbody>
+<tr><td><span class="cio-name">ChatGPT</span></td><td data-label="Free plan">£0</td><td data-label="Paid from">£6 a month (Go)</td><td data-label="Top listed price">£158 a month (Pro)</td></tr>
+<tr><td><span class="cio-name">Claude</span></td><td data-label="Free plan">£0</td><td data-label="Paid from">About £12.56 a month (Pro, annual)</td><td data-label="Top listed price">About £147.80 a month (Max 20x)</td></tr>
+<tr><td><span class="cio-name">Perplexity</span></td><td data-label="Free plan">£0</td><td data-label="Paid from">£13 a month (Pro, annual)</td><td data-label="Top listed price">£155 to £160 a month (Max)</td></tr>
+<tr><td><span class="cio-name">Grammarly</span></td><td data-label="Free plan">£0</td><td data-label="Paid from">£9 a month (Pro, annual)</td><td data-label="Top listed price">£24 a month (Pro, monthly)</td></tr>
+<tr class="cio-row--highlight"><td><span class="cio-name">ElevenLabs</span><span class="cio-pill">Lowest paid plan</span></td><td data-label="Free plan">£0</td><td data-label="Paid from"><strong class="cio-name">£4.30 a month (Starter)</strong></td><td data-label="Top listed price">Custom (Enterprise)</td></tr>
+</tbody>
+</table>
+</div>
+<div class="cio-foot">
+<p class="cio-note">Prices from Couponio&#x27;s pricing guides, checked 13 November 2026. Several are converted from US dollar prices and are approximate.</p>
+<a class="cio-btn" href="https://couponio.uk/blog">Read the pricing guides</a>
+</div>
+</section>
+</div>
+
+<p class="demo-label">Blank template: copy this for the other nine documents</p>
+<div class="cio-wrap">
+<section class="cio-info" aria-labelledby="cio-title-[SLUG]">
+<div class="cio-head">
+<div class="cio-topline">
+<p class="cio-tag">[CATEGORY]</p>
+<p class="cio-updated">Checked [DATE]</p>
+</div>
+<h2 class="cio-title" id="cio-title-[SLUG]">[TITLE]</h2>
+<p class="cio-intro">[SHORT INTRO: one or two sentences that state the main numbers.]</p>
+</div>
+<ul class="cio-facts">
+<li class="cio-fact cio-fact--accent">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></span>
+<p class="cio-fact-value">[VALUE]</p>
+<p class="cio-fact-label">[LABEL]</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></span>
+<p class="cio-fact-value">[VALUE]</p>
+<p class="cio-fact-label">[LABEL]</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></span>
+<p class="cio-fact-value">[VALUE]</p>
+<p class="cio-fact-label">[LABEL]</p>
+</li>
+<li class="cio-fact">
+<span class="cio-fact-icon"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8Z"></path><circle cx="7.5" cy="7.5" r="1.5"></circle></svg></span>
+<p class="cio-fact-value">[VALUE]</p>
+<p class="cio-fact-label">[LABEL]</p>
+</li>
+</ul>
+<div class="cio-tablewrap">
+<table class="cio-table">
+<caption>[TABLE CAPTION]</caption>
+<thead>
+<tr><th scope="col">[COLUMN 1]</th><th scope="col">[COLUMN 2]</th><th scope="col">[COLUMN 3]</th><th scope="col">[COLUMN 4]</th><th scope="col">[COLUMN 5]</th></tr>
+</thead>
+<tbody>
+<tr><td><span class="cio-name">[STORE OR ITEM]</span></td><td data-label="[COLUMN 2]">[VALUE]</td><td data-label="[COLUMN 3]">[VALUE]</td><td data-label="[COLUMN 4]"><span><span class="cio-star" aria-hidden="true">★</span> [0.0]</span></td><td data-label="[COLUMN 5]">[VALUE]</td></tr>
+<tr class="cio-row--highlight"><td><span class="cio-name">[STORE OR ITEM]</span><span class="cio-pill">[HIGHLIGHT LABEL]</span></td><td data-label="[COLUMN 2]">[VALUE]</td><td data-label="[COLUMN 3]">[VALUE]</td><td data-label="[COLUMN 4]"><span><span class="cio-star" aria-hidden="true">★</span> [0.0]</span></td><td data-label="[COLUMN 5]">[VALUE]</td></tr>
+<tr><td><span class="cio-name">[STORE OR ITEM]</span></td><td data-label="[COLUMN 2]">[VALUE]</td><td data-label="[COLUMN 3]">[VALUE]</td><td data-label="[COLUMN 4]"><span><span class="cio-star" aria-hidden="true">★</span> [0.0]</span></td><td data-label="[COLUMN 5]">[VALUE]</td></tr>
+</tbody>
+</table>
+</div>
+<div class="cio-foot">
+<p class="cio-note">[FOOTER NOTE: source and date of the figures.]</p>
+<a class="cio-btn" href="[URL]">[CTA LABEL]</a>
+</div>
+</section>
+</div>
+
+</main>
+</body>
+</html>
