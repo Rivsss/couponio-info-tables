@@ -6,3 +6,7 @@ Static HTML/CSS info tables in Couponio branding, filled for 10 test documents.
 - `css/cio-info.css`: the shared stylesheet
 
 No build step. Deploy the repository root as a static site.
+
+## Contributors
+
+- [Rivsss](https://github.com/Rivsss)
